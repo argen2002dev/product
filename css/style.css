@@ -669,6 +669,9 @@ body {
     border-radius:8px ;
 
 }
+.swiper-slide img {
+    width: 100%;
+}
 .swiper-slide h4{
     color: #22343D;
     font-size: 16px;
