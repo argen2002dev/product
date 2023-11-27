@@ -5,7 +5,7 @@
 
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -38,7 +38,9 @@ body {
     -moz-box-shadow: 0 1px 8px 5px rgba(0, 0, 0, 0.23);
     box-shadow: 0 1px 8px 5px rgba(0, 0, 0, 0.23);
     position: sticky;
+    top: 0;
     z-index: 100;
+    backdrop-filter: blur(8px);
 }
 
 .dark #header {
@@ -227,7 +229,9 @@ body {
 /*product start*/
 #product {
     background: url("../img/product-bn.svg") no-repeat center/cover;
+    padding: 20px;
 }
+
 
 .product h1 {
     width: 500px;
@@ -332,9 +336,356 @@ body {
 
 /*product end*/
 
+/*manager start*/
+#manager {
 
+    padding: 100px 0;
+}
 
+.manager-text {
+    padding: 23px 0 30px 0;
+}
 
+.manager-text h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dark .manager-text h4 {
+    color: white;
+}
 
+.manager-text h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+.dark .manager-text h1 {
+    color: white;
+}
 
+.manager-text p {
+    padding: 23px 0 30px 0;
+    width: 486px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.dark .manager-text p {
+    color: white;
+}
 
+.manager {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*manager end*/
+
+/*customer start*/
+#customer {
+    padding: 100px 0;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-text h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dark .customer-text h4 {
+    color: white;
+}
+.customer-text h1 {
+    padding: 8px 0 23px 0;
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+.dark .customer-text h1 {
+    color: white;
+}
+.customer-text p {
+    padding-bottom: 30px;
+    width: 486px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.dark .customer-text p {
+    color: white;
+}
+.icon-black {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.icon-one {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    background: #FF9900;
+    color: white;
+    font-size: 20px;
+}
+.icon-two {
+    margin-right: 30px;
+    background: #F03E3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    color: white;
+    font-size: 20px;
+}
+.icon-three {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    background: #4D8DFF;
+    color: white;
+    font-size: 20px;
+}
+.icon-black h6 {
+    width: 365px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.dark .customer-text h6 {
+    color: white;
+}
+/*customer end*/
+
+/*coll start*/
+#coll {
+    padding: 60px 0;
+
+}
+
+.coll-text h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dark .coll-text h4 {
+    color: white;
+}
+
+.coll-text h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+}
+.dark .coll-text h1 {
+    color: white;
+}
+.coll-text p {
+    padding: 12px 0 25px 0;
+    width: 486px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.dark .coll-text p {
+    color: white;
+}
+.coll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/*coll end*/
+
+/*easy start*/
+#easy {
+    background: url("../img/easy-bg.png") no-repeat top/cover;
+    padding: 25px 0;
+}
+
+.dark .easy h1,
+.dark .easy p {
+    color: white;
+}
+
+.easy h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.easy p {
+    width: 542px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.easy-text h2 {
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 500;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.easy-block {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.easy-general {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.easy-block-two {
+    flex-direction: row-reverse;
+}
+
+.easy-text {
+    margin: 0 16px;
+    position: relative;
+}
+
+.easy-block-img {
+    border-radius: 50%;
+}
+
+.easy button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background: #02897A;
+}
+
+.easy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.easy .easy h1,
+.easy .easy p {
+    color: white;
+}
+
+.easy-one {
+    width: 17px;
+    height: 17px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 30px;
+}
+
+.easy-two {
+    width: 9px;
+    height: 9px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: -5px;
+    left: 20px;
+}
+
+.easy-three {
+    left: 200px;
+}
+
+.easy-four {
+    left: 220px;
+}
+
+/*easy end*/
+
+/*swiper start*/
+#swiper {
+    padding: 150px 0;
+}
+.swiper h1{
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+
+}
+.dark .swiper h1 {
+    color: white;
+}
+.swiper p{
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 500;
+    padding:8px 0 33px 0 ;
+}
+.dark .swiper p {
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    border: 2px solid #BCD0E5;
+    border-radius:8px ;
+
+}
+.swiper-slide h4{
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0 12px 24px;
+}
+.swiper-slide h2{
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px 40px 30px 24px;
+
+}
+.swiper-slide:hover> h2{
+    color:#02897A ;
+    transition: .3s;
+}
+
+/*swiper end*/
